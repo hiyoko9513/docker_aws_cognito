@@ -1,0 +1,8 @@
+version: "3"
+services:
+  cognito:
+    # ドキュメント
+    # http://docs.getmoto.org/en/latest/docs/services/cognito-idp.html
+    build: ./docker/cognito
+    ports:
+      - "2000:5000"
